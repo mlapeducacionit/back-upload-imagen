@@ -20,7 +20,7 @@ app.use(express.json()) // Puedo recibir informaicón JSON
 app.use(express.urlencoded({ extended: false })) // Puedo recibir información de un Formulario
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://amazing-taffy-f0adbb.netlify.app',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
